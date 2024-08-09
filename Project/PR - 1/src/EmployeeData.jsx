@@ -10,7 +10,7 @@ const EmployeeCard = (props) => {
                 <h3>Employee Data </h3>
             </div>
             <div className="card-body">
-                <h3>Name :-  {employee.empname}</h3>
+                <p>Name :-  {employee.empname}</p>
                 <p>Emp ID :-  {employee.empid}</p>
                 <p>Email :-  {employee.empemail}</p>
                 <p>Phone :-  {employee.empphone}</p>
