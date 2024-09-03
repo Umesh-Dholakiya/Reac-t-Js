@@ -1,0 +1,63 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 3%;
+}
+
+.card {
+  background-color: #f8f8f8;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  font-size: 20px;
+}
+
+.card-image {
+  width: 100%;
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+.card-content {
+  text-align: left;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+
+.card-content h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.shop-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.shop-button:hover {
+  background-color: #45a049;
+}

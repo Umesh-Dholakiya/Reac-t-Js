@@ -1,0 +1,41 @@
+.features-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .feature-card {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 3% 0;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .feature-icon {
+    font-size: 40px;
+    color: #64B496;
+    margin-bottom: 15px;
+  }
+  
+  .feature-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .feature-description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+  }
+  

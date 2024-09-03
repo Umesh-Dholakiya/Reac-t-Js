@@ -1,0 +1,120 @@
+.product-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.product-card_1 {
+    width: 15%;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    /* height: 40%; */
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-info {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.product-category {
+    font-size: 14px;
+    color: #7f7f7f;
+}
+
+.product-rating {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ff9800;
+    text-decoration: none;
+}
+.product-rating span{
+    text-decoration: none;
+}
+
+.product-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+.product-pricing {
+    margin-top: 10px;
+}
+
+.current-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #32a852;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.original-price {
+    font-size: 14px;
+    color: #999;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.promo-card {
+    width: 600px;
+    height: 445px;
+    position: relative;
+    text-align: end;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.promo-image {
+    width: 100%;
+    height: auto;
+}
+
+.promo-info {
+    position: absolute;
+    top: 55%;
+    left: 56%;
+    transform: translateY(-50%);
+    color: #333;
+    text-align: right;
+}
+
+.promo-info h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.promo-info p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.shop-now-btn {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #32a852;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.shop-now-btn:hover {
+    background-color: #28a745;
+}

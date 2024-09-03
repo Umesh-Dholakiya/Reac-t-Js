@@ -1,0 +1,88 @@
+.news .review-content{
+    padding-bottom: 100px;
+    border: 1px solid #333;
+    text-decoration: none;
+}
+
+.news .title{
+    padding-bottom: 20px;
+}
+
+.news .title h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #2b2b2d;
+    font-family: "Manrope", sans-serif;
+}
+.news .title p{
+    color: #7a7a7a;
+    font-family: "Poppins";
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.card_12{
+    border: 0.5px solid #EFEFEF;
+}
+.card_12 .card-body{
+    padding: 20px;
+}
+
+.news .card_12 .card-body h5{
+    margin-top: 5px;
+    font-family: "Poppins";
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #2b2b2d;
+}
+
+.news .card_12 .card-body p{
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2;
+    color: #7a7a7a;
+}
+
+.news .card_12 .card-body p span{
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+    text-decoration: none;
+}
+
+.news .card_12 .card-body p a{
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.875;
+    color: #777;
+    text-decoration: none;
+}
+
+.news .card_12 .card-body .read , .news .card_12 .card-body i{
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.875;
+    color: #64b496;
+    text-decoration: none;
+}
+
+.news .card_12{
+    overflow: hidden;
+}
+
+.news .card_12 img{
+    transition: all 0.5s;
+}
+
+.news .card_12 img:hover{
+    transform: scale(1.1);
+}
+
+.news .news-text{
+    padding-bottom: 100px;
+}
