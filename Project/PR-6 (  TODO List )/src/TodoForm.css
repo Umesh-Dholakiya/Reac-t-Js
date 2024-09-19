@@ -90,7 +90,9 @@ body {
     background-color: green;
     margin-right: 10px;
   }
-  
+  .edit:hover{
+    background-color: cadetblue;
+  }
   @media (max-width: 600px) {
     div[align="center"] {
       padding: 10px;

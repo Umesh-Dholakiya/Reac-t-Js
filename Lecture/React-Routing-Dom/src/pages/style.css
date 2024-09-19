@@ -1,0 +1,101 @@
+/* Center alignment for all content inside the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    width: 100%;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styling the form table */
+table {
+    border-collapse: collapse;
+    width: 500px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Link styling */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+a:hover {
+    background-color: #333;
+}
+
+/* View table styling */
+thead {
+    background-color: #007bff;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+button.delete_btn {
+    background-color: #c82333;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+}
+button.edit_btn {
+    background-color: #218838;
+    color: white;
+    margin-right: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+
+button.delete_btn:hover {
+    background-color: #c82333d1;
+}
+button.edit_btn:hover{
+    background-color: #218837e9;
+}
+
