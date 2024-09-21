@@ -43,8 +43,7 @@ function Add() {
             <div className="container" style={{ margin: "80px 55px", color: "white" }}>
                 <div className="row">
                     <div className="col-lg-6 mx-auto">
-
-                        <form onSubmit={handleForm} className=' p-5' style={{ border: "2px solid transparent", borderRadius: "10px 20px 10px 20px", boxShadow: "5px 5px 2px #777764" }}>
+                        <form onSubmit={handleForm} className=' border p-5' style={{ border: "2px solid transparent", borderRadius: "10px 30px 10px 20px", boxShadow: "8px 8px 0px #777764" }}>
                             <div className="mb-3">
                                 <label className="form-label" style={{ fontSize: "20px" }}>Title</label>
                                 <input type="text" className="form-control" onChange={(e) => setTitle(e.target.value)} value={title} placeholder='Enter Your Title...' />
