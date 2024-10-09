@@ -1,12 +1,14 @@
 let initialState = 0;
 
-const Counter = (state = initialState, Action) => {
-    switch (Action.type) {
+const Counter = (state = initialState, action) => {
+    switch (action.type) {
         case 'inc':
             return state + 1;
-        case 'Dec':
+
+        case 'dec':
             return state - 1;
-        case 'Reset':
+
+        case 'rst':
             return state = 0;
 
         default:
@@ -14,4 +16,4 @@ const Counter = (state = initialState, Action) => {
     }
 }
 
-export default Counter;
+export default Counter

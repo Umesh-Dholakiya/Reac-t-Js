@@ -1,0 +1,82 @@
+/* Container for all cards */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f7f9fa;
+}
+
+/* Individual card styling */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Card title */
+.card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Card description */
+.card-description {
+    font-size: 0.95em;
+    color: #666;
+    margin-bottom: 25px;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Product category */
+.card-category {
+    font-size: 0.85em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+/* Price and rating styling */
+.card-price-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.card-price {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #009879;
+}
+
+.card-rating {
+    font-size: 0.9em;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: #444;
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
