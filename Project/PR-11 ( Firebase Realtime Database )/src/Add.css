@@ -1,0 +1,97 @@
+/* Container for the whole form and page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.container {
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Email Us Title */
+h2 {
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: black;
+}
+
+/* Styling for the form container */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Each input field styling */
+.form-group {
+    width: 48%;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d63e3e;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Make the textarea span across both columns */
+textarea {
+    height: 100px;
+    resize: none;
+    width: 100%;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #a32e2e;
+}
+
+/* Submit button */
+input[type="submit"] {
+    width: 100%;
+    background-color: #d63e3e;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #a32e2e;
+}
+
+/* Specific form-group for the textarea */
+.form-group-full {
+    width: 100%;
+}
+
+/* Adjust the layout for smaller screens */
+@media (max-width: 768px) {
+    .form-group {
+        width: 100%;
+    }
+}
