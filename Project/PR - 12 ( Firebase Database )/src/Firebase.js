@@ -1,3 +1,4 @@
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
@@ -11,4 +12,5 @@ const firebaseConfig = {
   measurementId: "G-C2EBS0QSP8"
 };
 
+// Initialize Firebase
 export const app = initializeApp(firebaseConfig);

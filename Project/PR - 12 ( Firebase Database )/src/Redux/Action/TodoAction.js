@@ -1,12 +1,12 @@
 import {addDoc, collection, deleteDoc, doc, getDocs, getFirestore} from 'firebase/firestore'
-import {app} from "../../firebasedb";
+import {app} from "../../Firebase";
 
 
 const db = getFirestore(app)
 export const Add_todo = (todo) =>{
     return async(dispatch) =>{
         try {
-             await  addDoc(collection(db,'Pr-12'),{
+             await  addDoc(collection(db,'Users'),{
                 list:todo.list
             })
             dispatch({
@@ -24,7 +24,7 @@ export const View_todo = () =>{
     return async(dispatch) =>{
         try {
            
-            let list = collection(db,'Pr-12');
+            let list = collection(db,'Users');
             let gettodos = await getDocs(list)
             const todosArray = gettodos.docs.map(val => ({
                 id: val.id,
@@ -43,7 +43,7 @@ export const View_todo = () =>{
 export const Delete_todo =(id) =>{
     return async(dispatch) =>{
         try {
-                let list = await doc(db,'Pr-12',id);
+                let list = await doc(db,'Users',id);
                 await deleteDoc(list)
                 dispatch({
                     type:'DELETE_TODO',

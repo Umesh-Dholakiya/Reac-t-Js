@@ -33,7 +33,7 @@ const Add = () => {
     }
     return (
         <div align="center" >
-            <h2>Add Record</h2>
+            <h2>Firebase Realtime Database - Contact Page</h2>
             <form onSubmit={handleSubmit}>
                 <div className="form-group">
                     <label htmlFor="name">Name : </label>
