@@ -22,8 +22,8 @@ const Login = () => {
     <div align="center">
         <h2>Login Page</h2>
         <div align="center">
-            <h2>Google Authentication</h2>
-            <button onClick={() => handleSubmit()}>Sign in With Google</button>
+            <h2>Sign in With Google in React</h2>
+            <img src="./src/11.png" onClick={() => handleSubmit()} />
         </div>
     </div>
   )
