@@ -1,8 +1,8 @@
 import { signOut } from 'firebase/auth';
 import React from 'react'
-import { auth } from '../FIrebase';
 import { useNavigate } from 'react-router-dom';
 import './Style.css'
+import { auth } from '../FIrebase';
 
 
 const Deshboard = () => {
@@ -11,7 +11,7 @@ const Deshboard = () => {
 
     const logout = async () => {
         try{
-            await signOut(auth);
+            await signOut(auth)
             alert("Logout SuccessFully...👍")
             navigate('/')
 

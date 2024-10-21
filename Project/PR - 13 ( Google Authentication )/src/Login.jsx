@@ -11,7 +11,7 @@ const Login = () => {
     const  handleSubmit = async () => {
         try{
             let data = await signInWithPopup(auth , googleAuthProvider);
-            navigate('/');
+            navigate('/Deshboard');
         }
         catch(err){
             console.log(err);
