@@ -1,0 +1,125 @@
+/* Container styling for ViewForm */
+.view-form-container {
+    background-color: #fff;
+    width: 800px;
+    margin: 30%  0  0 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .view-form-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Add New Record button styling */
+  .add-button {
+    background-color: #00aaff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .add-button:hover {
+    background-color: #007bbd;
+    color: #fff;
+  }
+  
+  /* Table styling */
+  .records-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .records-table th,
+  .records-table td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+
+  }
+  
+  .records-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .records-table td {
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+  }
+  
+  /* Select checkbox styling */
+  .records-table input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+  }
+  
+  /* Action buttons styling */
+  .edit-button,
+  .delete-button {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-button {
+    background-color: #00aaff;
+    margin-right: 5px;
+  }
+  
+  .edit-button:hover {
+    background-color: #007bbd;
+  }
+  
+  .delete-button {
+    background-color: #ff4d4d;
+  }
+  
+  .delete-button:hover {
+    background-color: #cc0000;
+  }
+  
+  /* Delete Selected button */
+  .delete-selected-button {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  
+  .delete-selected-button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  .delete-selected-button:hover:not(:disabled) {
+    background-color: #cc0000;
+  }
+  

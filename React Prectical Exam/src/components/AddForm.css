@@ -1,0 +1,58 @@
+/* Center container styling */
+.add-form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 50%  0  0 100%;
+    text-align: center;
+    position: relative;
+    left: 100%;
+    
+  }
+  
+  /* Form title styling */
+  .add-form-container h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input field styling */
+  .add-form-container input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  /* Add/Update button styling */
+  .add-form-container .submit-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #00aaff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-form-container .submit-button:hover {
+    background-color: #007bbd;
+  }
+  
+  /* Additional styling for input focus */
+  .add-form-container input[type="text"]:focus {
+    border-color: #00aaff;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 170, 255, 0.5);
+  }
+  

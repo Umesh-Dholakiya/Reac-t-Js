@@ -7,7 +7,7 @@ const Register = () => {
     const [name, setName] = useState("");
     const [phone, setPhone] = useState("");
     const [email, setEmail] = useState("");
-    const [pwd, setPwd] = useState("");
+    const [password, setPassword] = useState("");
     const [city, setCity] = useState("");
 
 
@@ -21,20 +21,19 @@ const Register = () => {
                     name: name,
                     phone: phone,
                     email: email,
-                    pwd: pwd,
-                    city: city
+                    password: password,
+                    city: city,
+                    role: "user"
                 })
             })
 
             let res = await response.json();
-            if(res){
+            if (res) {
                 alert("Registration Successfull");
             }
-            else{
+            else {
                 alert("Registration Failed");
             }
-
-
         } catch (err) {
             console.log(err);
             return false;
@@ -64,7 +63,7 @@ const Register = () => {
                                 </div>
                                 <div className="mb-3">
                                     <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
-                                    <input type="password" className="form-control" onChange={(e) => setPwd(e.target.value)} value={pwd} placeholder='Enter Your Password' />
+                                    <input type="password" className="form-control" onChange={(e) => setPassword(e.target.value)} value={password} placeholder='Enter Your Password' />
                                 </div>
                                 <div className="mb-3">
                                     <label htmlFor="exampleInputEmail1" className="form-label">City</label>
@@ -83,6 +82,7 @@ const Register = () => {
                 </div>
             </div>
         </div>
+
     )
 }
 

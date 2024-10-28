@@ -6,6 +6,7 @@ import Product from "./Pages/Admin/Product"
 import Home from "./Pages/Users/Home"
 import Login from "./Pages/Login"
 import Register from "./Pages/Register"
+import AdminRoute from "./privateRoute/AdminRoute"
 
 
 function App() {
@@ -15,13 +16,15 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        
+
         {/* admin route */}
-        <Route path="/admin" element={<Deshboard />} />
-        <Route path="/admin/users" element={<User />} />
-        <Route path="/admin/product" element={<Product />} />
+        <Route path="/admin" element={<AdminRoute />} >
+            <Route path="/admin" element={<Deshboard />} />
+            <Route path="/admin/users" element={<User />} />
+            <Route path="/admin/product" element={<Product />} />
+        </Route>
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter >
   )
 }
 

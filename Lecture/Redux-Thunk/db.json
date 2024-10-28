@@ -2,16 +2,39 @@
   "users": [
     {
       "id": "3471",
-      "name": "Umesh",
+      "name": "xyz",
       "phone": "1234567890",
-      "email": "umesh@gmail.com",
-      "pwd": "Umesh@12345",
-      "city": "Surat"
+      "email": "xyz@gmail.com",
+      "pwd": "xyz@12345",
+      "city": "Surat",
+      "role": "user"
     },
     {
-      "id": "8657",
-      "email": "umesh12@gmail.com",
-      "pwd": "Umesh@12344321@#@#@#@#@#"
+      "id": "a2e4",
+      "name": "abc",
+      "phone": "1234567890",
+      "email": "abc@gmail.com",
+      "pwd": "1234567",
+      "city": "surat",
+      "role": "user"
+    },
+    {
+      "id": "9829",
+      "name": "umesh",
+      "phone": "1234567890",
+      "email": "umesh@gmail.com",
+      "pwd": "12345",
+      "city": "surat",
+      "role": "admin"
+    },
+    {
+      "id": "efd6",
+      "name": "Jay",
+      "phone": "9876543207",
+      "email": "jay@gmail.com",
+      "password": "jay@123",
+      "city": "goa",
+      "role": "user"
     }
   ]
 }
